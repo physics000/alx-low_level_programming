@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Description :a program that prints the alphabet in lowercase, exept e and q 

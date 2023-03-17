@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
 * main - Entry point
 * Description :Last digit of number is 0,greater than 5 , less than 6 and not 0
