@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int x,z;
+int x, z;
 x = 0;
 while (x <= 98)
 {
