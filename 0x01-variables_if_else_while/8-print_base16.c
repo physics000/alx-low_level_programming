@@ -8,7 +8,7 @@
 int main(void)
 {
 char hex;
-for (hex = 48;hex <= 57;hex++)
+for (hex = 48; hex <= 57; hex++)
 {
 putchar(hex);
 }
