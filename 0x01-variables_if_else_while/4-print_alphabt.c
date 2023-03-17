@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- * Description :a program that prints the alphabet in lowercase, exept e and q 
+ * Description :a program that prints the alphabet in 
+ * lowercase with out e and q
  * Return: Always 0 (Success)
  */
 int main(void)
