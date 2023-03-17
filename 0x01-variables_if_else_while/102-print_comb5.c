@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- * Description: 
+ * Description:Write a program that prints all
+ *  possible combinations of two two-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,7 +11,7 @@ int x,z;
 x = 0;
 while (x <= 98)
 {
-z=x+1;
+z = x + 1;
 while (z <= 99)
 {
 putchar(x / 10 + 48);
