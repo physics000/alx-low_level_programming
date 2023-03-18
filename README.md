@@ -16,7 +16,7 @@ In the 1990s, Linus Torvalds used C to develop the Linux operating system, which
 
 ## Compiling C Programs
 
-To compile a C program, you'll need to use a compiler like gcc. When you type `gcc main.c` into the terminal, gcc will compile the code in the `main.c` file and generate an executable file called `a.out`.
+To Compile a C program, you'll need to use a compiler like gcc. When you type `gcc main.c` into the terminal, gcc will compile the code in the `main.c` file and generate an executable file called `a.out`.
 
 The `main` function is the entry point for C programs. When you run a C program, the operating system loads the executable file into memory and jumps to the `main` function.
 
