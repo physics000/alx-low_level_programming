@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * more_numbers - nmbr from 0 to 14 10 times
- * Return: Void
+ * more_numbers - nmbr function 10 times
+ *
+ * Return: no return
  */
 
 void more_numbers(void)
 {
 
 int i, j;
-	i = 0;
-	while (i <= 10)
+	for (i = 1; i <= 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
@@ -18,7 +18,6 @@ int i, j;
 			_putchar('1');
 			_putchar(j % 10 + '0');
 		}
-			i++;
 			_putchar('\n');
 		}
 }
