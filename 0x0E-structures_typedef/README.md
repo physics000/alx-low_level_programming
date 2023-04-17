@@ -321,4 +321,5 @@ julien@ubuntu:~/0x0d. structures, typedef$
 -   Directory: `0x0E-structures_typedef`
 -   File: `5-free_dog.c`
 
-Copyright © 2021 Holberton Inc, All rights reserved.
+
+.
