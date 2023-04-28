@@ -2,7 +2,7 @@
 
 /**
  * list_len - function that returns  the number of elements
- * in a linked list_t list
+ *		in a linked list_t list
  *
  * @h: header of the list
  *
