@@ -2,14 +2,16 @@
 
 /**
  * print_listint_safe - prints a listint_t linked list, even if it has a loop
+ *
  * @head: pointer to the head of the list
+ *
  * Return: the number of nodes in the list
  */
 
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *current, *temp;
-	size_t count = 0;
+	size_t i = 0;
 
 	if (head == NULL)
 	{
@@ -18,17 +20,18 @@ size_t print_listint_safe(const listint_t *head)
 
 	current = head;
 
-	for (; current != NULL; current = current->next)
+	while (current != NULL)
 	{
-		printf("[%p]\t%d\n", (void *)current, current->n);
-		count++;
+		printf("[%p] %d\n", (void *)current, current->n);
+		i++;
 		temp = current;
+		current = current->next;
 
-		if (temp < current->next)
+		if (temp < current)
 		{
-			printf("-> [%p]\t%d\n", (void *)current->next, current->next->n);
+			printf("-> [%p] %d\n", (void *)current, current->n);
 			break;
 		}
 	}
-	return (count);
+	return (i);
 }
