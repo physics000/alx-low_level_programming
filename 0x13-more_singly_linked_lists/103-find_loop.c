@@ -15,7 +15,7 @@ listint_t *find_listint_loop(listint_t *head)
 	while (tortoi && h && h->next)
 	{
 		tortoi = tortoi->next;
-		h = hare->next->next;
+		h = h->next->next;
 		if (tortoi == h)
 		{
 			tortoi = head;
